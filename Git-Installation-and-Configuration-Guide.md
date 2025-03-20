@@ -44,6 +44,7 @@ git --version
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
+git config --global color.ui auto # Enable automatically colorized output
 git config --global core.editor "nano"  # Set preferred text editor
 ```
 

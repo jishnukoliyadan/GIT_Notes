@@ -115,6 +115,8 @@ git log -1 --pretty=fuller
     git push --force --all
     ```
     > If you're working on a **shared repository**, always ensure that others are aware before force pushing changes.
+- `git-filter-repo` will create new SHAs for all commits, thus the `git notes` won't show once again.
+    - To reattach the `git notes` back again, refer [Git-Notes-Migration-Guide.md](https://github.com/jishnukoliyadan/GIT_Notes/blob/main/Git-Notes-Migration-Guide.md)
 - Backup First : Create a backup branch before making destructive changes.
 - Prefer `git-filter-repo` over `filter-branch` for better performance and safety.
 
